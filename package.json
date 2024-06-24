@@ -1,0 +1,19 @@
+{
+  "name": "time-words",
+  "version": "1.0.0",
+  "description": "Represents the current time as a phrase such as \"five past seven\".",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xtt28/time-words.git"
+  },
+  "keywords": [
+    "time"
+  ],
+  "author": "xtt28",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xtt28/time-words/issues"
+  },
+  "homepage": "https://github.com/xtt28/time-words#readme"
+}
