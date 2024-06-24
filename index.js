@@ -115,7 +115,7 @@ function timeToWords(hours, minutes) {
       const specialWord = SPECIAL_NUMBER_WORDS[minutes];
       return `${specialWord} past ${hoursWord}`;
     } else {
-      return `${hoursWord} ${numberToWord(minutes)}`;
+      return `${hoursWord} ${minutes < 10 ? "oh " : ""}${numberToWord(minutes)}`;
     }
   } else {
     const remaining = 60 - minutes;
